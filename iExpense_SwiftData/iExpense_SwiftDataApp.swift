@@ -2,16 +2,18 @@
 //  iExpense_SwiftDataApp.swift
 //  iExpense_SwiftData
 //
-//  Created by Jakub Czerwiec  on 20/11/2024.
+//  Created by Jakub Czerwiec  on 15/11/2024.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
-struct iExpense_SwiftDataApp: App {
+struct iExpnce2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [ExpensItem.self])
     }
 }
