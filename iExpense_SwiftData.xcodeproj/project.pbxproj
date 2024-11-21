@@ -15,6 +15,7 @@
 		876F9F492CED8AA100B7894E /* ExpensItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F9F482CED8AA100B7894E /* ExpensItem.swift */; };
 		876F9F4B2CEDB71300B7894E /* PrivateExpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F9F4A2CEDB71300B7894E /* PrivateExpView.swift */; };
 		876F9F4D2CEDB72200B7894E /* BussinessExpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F9F4C2CEDB72200B7894E /* BussinessExpView.swift */; };
+		876F9F4F2CEDC09F00B7894E /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F9F4E2CEDC09F00B7894E /* ExpensesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		876F9F482CED8AA100B7894E /* ExpensItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensItem.swift; sourceTree = "<group>"; };
 		876F9F4A2CEDB71300B7894E /* PrivateExpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateExpView.swift; sourceTree = "<group>"; };
 		876F9F4C2CEDB72200B7894E /* BussinessExpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussinessExpView.swift; sourceTree = "<group>"; };
+		876F9F4E2CEDC09F00B7894E /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				876F9F4C2CEDB72200B7894E /* BussinessExpView.swift */,
 				876F9F4A2CEDB71300B7894E /* PrivateExpView.swift */,
 				876F9F3A2CED8A1D00B7894E /* ContentView.swift */,
+				876F9F4E2CEDC09F00B7894E /* ExpensesView.swift */,
 				876F9F462CED8A6B00B7894E /* AddView.swift */,
 				876F9F482CED8AA100B7894E /* ExpensItem.swift */,
 				876F9F3C2CED8A1E00B7894E /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				876F9F4D2CEDB72200B7894E /* BussinessExpView.swift in Sources */,
 				876F9F3B2CED8A1D00B7894E /* ContentView.swift in Sources */,
 				876F9F492CED8AA100B7894E /* ExpensItem.swift in Sources */,
+				876F9F4F2CEDC09F00B7894E /* ExpensesView.swift in Sources */,
 				876F9F4B2CEDB71300B7894E /* PrivateExpView.swift in Sources */,
 				876F9F392CED8A1D00B7894E /* iExpense_SwiftDataApp.swift in Sources */,
 				876F9F472CED8A6B00B7894E /* AddView.swift in Sources */,
