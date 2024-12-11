@@ -27,6 +27,9 @@ struct ExpensesView: View {
                             Text(expens.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                                 .foregroundColor(expens.amount < 20 ? .green : expens.amount > 90 ? .red : .orange)
                         }
+                        .accessibilityElement()
+                        .accessibilityLabel("\(expens.name) \(expens.amount)")
+                        .accessibilityHint("\(expens.type)")
                     }
                 }
                 .onDelete(perform: removeExpense)
@@ -43,6 +46,9 @@ struct ExpensesView: View {
                             Text(expens.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                                 .foregroundColor(expens.amount < 20 ? .green : expens.amount > 90 ? .red : .orange)
                         }
+                        .accessibilityElement()
+                        .accessibilityLabel("\(expens.name) \(expens.amount)")
+                        .accessibilityHint("\(expens.type)")
                     }
                 }
                 .onDelete(perform: removeExpense)
